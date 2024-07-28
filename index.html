@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop-Only Website</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to CSS file -->
+      <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'none';">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="slide-button">Slide Me</button>
+    </header>
+
+    <!-- Video Background Section -->
+    <section class="video-background">
+        <video autoplay muted loop>
+            <source src="videos/background.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay"></div>
+        <div class="video-content">
+            <h2>Discover Our World of Laptops</h2>
+        </div>
+    </section>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Welcome to Our Laptop Website</h1>
+            <p>Your destination for a sleek and powerful laptop experience.</p>
+            <a href="#" class="cta-button">Learn More</a>
+        </section>
+
+        <!-- Carousel Section -->
+        <section class="carousel">
+            <h2>Featured Laptops</h2>
+            <div class="carousel-container">
+                <div class="carousel-item">
+                    <img src="images/laptop1.jpg" alt="Laptop Model 1">
+                    <h3>Laptop Model 1</h3>
+                    <p>High performance and great battery life.</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/laptop2.jpg" alt="Laptop Model 2">
+                    <h3>Laptop Model 2</h3>
+                    <p>Stylish design with cutting-edge features.</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/laptop3.jpg" alt="Laptop Model 3">
+                    <h3>Laptop Model 3</h3>
+                    <p>Durable and reliable for all your needs.</p>
+                </div>
+            </div>
+            <button class="carousel-button prev">❮</button>
+            <button class="carousel-button next">❯</button>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services">
+            <h2>Our Services</h2>
+            <div class="service">
+                <img src="images/repair.png" alt="Repair Service">
+                <h3>Expert Repair</h3>
+                <p>Fast and reliable repair services to keep your laptop in top shape.</p>
+            </div>
+            <div class="service">
+                <img src="images/consultation.png" alt="Consultation">
+                <h3>Consultation</h3>
+                <p>Get expert advice on selecting the best laptop for your needs.</p>
+            </div>
+            <div class="service">
+                <img src="images/support.png" alt="Support">
+                <h3>24/7 Support</h3>
+                <p>Access our dedicated support team anytime for assistance.</p>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section class="blog">
+            <h2>From Our Blog</h2>
+            <div class="blog-post">
+                <h3>5 Tips to Extend Your Laptop's Battery Life</h3>
+                <p>Discover practical tips to help you get the most out of your laptop's battery.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="blog-post">
+                <h3>Top 10 Laptop Accessories You Need</h3>
+                <p>Check out the essential accessories that can enhance your laptop experience.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </section>
+
+        <!-- Testimonial Section -->
+        <section class="testimonial">
+            <h2>What Our Customers Say</h2>
+            <blockquote>
+                <p>"The best laptop I've ever used! Fast, reliable, and beautifully designed."</p>
+                <footer>- Alex Johnson</footer>
+            </blockquote>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+            <!-- New Button Below the Form -->
+            <button class="name-email-button">Name, Email</button>
+        </section>
+    </main>
+
+    <footer>
+        <p style="text-align:center;">&copy; 2024 Laptop Website. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script> <!-- Link to JavaScript file -->
+    <!-- Blog Section -->
+<section class="blog">
+    <h2>From Our Blog</h2>
+    <div class="blog-post">
+        <h3>5 Tips to Extend Your Laptop's Battery Life</h3>
+        <p>Discover practical tips to help you get the most out of your laptop's battery.</p>
+        <a href="#" class="blog-button">Read More</a>
+    </div>
+    <div class="blog-post">
+        <h3>Top 10 Laptop Accessories You Need</h3>
+        <p>Check out the essential accessories that can enhance your laptop experience.</p>
+        <a href="#" class="blog-button">Read More</a>
+    </div>
+</section>
+</body>
+</html>
